@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('temperature.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.temp{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+      }
+.temp:hover{
+    text-shadow: 0 0 25px white;
+}
+
+
+.container {
+    max-width: 450px;
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 25px black, 0 0 50px black;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 20px
+}
+
+
+.temperature {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 40px;
+    color:  #eff4f4;
+    display: block;
+}
+
+input {
+    flex: 5;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+input:hover{
+    color: #ccc;
+    background-color: rgb(18, 18, 17);
+    box-shadow: 0 0 25px white;
+}
+
+button {
+    font-size: 20px;
+    background-color: transparent;
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background: aqua;
+    color: #081b08;
+    box-shadow: 0 0 25px cyan, 0 0 50px cyan;
+}
